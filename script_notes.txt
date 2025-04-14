@@ -1,0 +1,17 @@
+get_data_v1.R
+  R script to download CDC-EPHTN data from API, updated in 8/2024 following latest changes of API
+
+inspect_climate_v4.R
+  R script to construct:
+    (1) binary indicators for hot-dry (HD) compound based on CDC heat (NLDAS) & drought (USDM) data;
+    (2) ND indicators
+  Output: Climate-c2c-IRS > climate > processed
+    Data file: climate_all_2010to2021_withHDND.csv
+    Codebook, with detailed annotations in column F 'label': codebook_climate_all_2010to2021_withHDND.xlsx
+
+vis_cluster_v2.R
+  R script for visualization of estimated clusters for IC2S2 presentation
+
+get_d_index.py
+  Python script to calculate index D
+
